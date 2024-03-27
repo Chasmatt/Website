@@ -1,0 +1,188 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{ /* Element Selector*/
+  background-image: linear-gradient(
+    to top left,
+    rgba(38, 107, 199, 0.2),
+    rgba(66, 106, 214, 0.2) 30%,
+    rgba(114, 156, 235, 0))
+}
+
+header {
+text-align: center;
+padding: 20px;
+background-image: linear-gradient(
+    to top left,
+    rgba(38, 107, 199, 0.2),
+    rgba(66, 106, 214, 0.2) 30%,
+    rgba(114, 156, 235, 0))
+}
+
+.Bstyle{ /*class selector*/
+  border: 0;
+  line-height: 2.5;
+  padding: 0 100px;
+  font-size:x-large;
+  text-align: center;
+  color: #050505;
+  text-shadow: 1px 1px 1px #464646;
+  border-radius: 10px;
+  background-color: none;
+}
+
+.Bstyle:hover {
+  background-color: rgb(129, 129, 129); /*hover pseduo class rollover effect for nav buttons*/
+}
+
+.Bstyle:active {
+  box-shadow:
+    inset -2px -2px 3px rgba(105, 105, 105, 0.6),
+    inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+h1, h2{
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 50px;
+  padding: 30px;
+  color: #ffffff;
+  background-image: linear-gradient(
+    to top left,
+    rgba(38, 107, 199, 0.2),
+    rgba(66, 106, 214, 0.2) 30%,
+    rgba(114, 156, 235, 0))
+}
+
+h3{
+  color: #000000;
+  text-shadow: #ffffff;
+  font-family: Georgia, 'Times New Roman', Times, serif; /* font family declaration*/
+}
+
+p{
+  color: #000000;
+  text-shadow: #ffffff;
+  font-size: large;
+}
+
+section{
+  padding: 50px 50px;
+  margin-left: 50px;
+  margin-right: 68%;
+  font-family:'Times New Roman', Times, serif;
+  font-size: medium;
+   position: fixed;
+  bottom: 65px;
+  background-color: rgba(206, 213, 236, 0.651);
+  background-image: linear-gradient( to top left,
+   rgba(229, 230, 231, 0.801),
+    rgba(66, 105, 214, 0) 30%,
+    rgba(232, 237, 248, 0.897));
+  box-shadow:
+    inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+    inset -2px -2px 3px rgba(116, 116, 116, 0.6);
+  }
+
+aside{
+  padding: 0px 70px;
+  margin-left:60%;
+  font-family:'Times New Roman', Times, serif;
+  font-size: medium;
+   position: fixed;
+  bottom: 65px;
+  background-color: rgba(206, 213, 236, 0.651);
+  background-image: linear-gradient( to top left,
+   rgba(229, 230, 231, 0.801),
+    rgba(66, 105, 214, 0) 30%,
+    rgba(232, 237, 248, 0.897));
+  box-shadow:
+    inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+    inset -2px -2px 3px rgba(116, 116, 116, 0.6);
+}
+
+div p{
+  margin-left: 50%;
+  margin-right: 50%;
+  color: rgb(250, 250, 250);
+  padding: auto;
+}
+
+.imagesHP{
+  background-image:url("../Images/MainPage\ Body\ Image.jpeg");
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+}
+.imagesCP{
+  background-image:url("../Images/Capital\ Indianapolis\ Body\ Image.jpeg");
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+}
+
+.imagesC1{
+  background-image: url("../Images/Bloomington.jpg");
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+}
+
+.imagesC2{
+  background-image: url("../Images/City\ Of\ Marshall\ Body\ .jpeg");
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+}
+
+.imagesF{
+  background-image: url("../Images/Lila_Jax_Tiff_Edits-1-11.jpg");
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+}
+
+#MPimage{ /* ID Selector*/
+  float: left;    /*floats image on home page to left of parahgraph*/
+  width: 100px;
+}
+
+th, td {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+caption{
+  background-color: rgba(102, 101, 101, 0.774);
+  color: #ffffff;
+}
+
+footer {
+  color: #c5c6c9;
+  Text-align: center;
+  font-size: x-small;
+  padding: 1px;
+  bottom:0;
+  width: 100%;
+  position:fixed; /*relative position of the footer*/
+  z-index: 1;
+  background-image: linear-gradient(
+    to top left,
+    rgba(38, 107, 199, 0.2),
+    rgba(66, 106, 214, 0.2) 30%,
+    rgba(114, 156, 235, 0))
+
+}
+
+footer p {
+  color: #1d1d1d;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 1rem;
+  font-weight: 300;
+
+}

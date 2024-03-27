@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <title>Request Additional Information</title>
+   <link rel="stylesheet" href="../Styles/styles.css">
+</head>
+<Body class="imagesF">
+   <header> <!--List of Nav buttons on header. Home page button is a image-->
+    <nav><a href="../MainPage_Indiana.html">
+        <button class="Bstyle" type="button">Home</button></a>
+    <a href="../Capital/capital.html">
+        <button class="Bstyle" type="button">Indianapolis</button></a>
+    <a href="../City1/city1.html">
+        <button class="Bstyle" type="button">Bloomington</button></a>
+    <a href="../City2/city2.html">
+        <button class="Bstyle" type="button">Marshall</button></a>
+    <a href="Form.html">
+        <button class="Bstyle" type="button">Request Additional Information</button></a>
+    </nav>
+
+       </header>
+       <h1>Get More Information</h1>
+       <h2>Fill out the form below to recived more information on the 
+        the state of Indiana.The State of Indiana will send additional infromation to the email provided below
+       </h2>
+       
+       <div>
+        <form><!--Form-->
+            <p>
+                <label for="first">First Name:</label>
+                <input type="text" id="first" name="first" placeholder="First Name">
+             </p>
+             <p>
+                <label for="last">Last Name:</label>
+                <input type="text" id="last" name="last" placeholder="Last Name">
+             </p>
+             <p>  
+                <label for="email">Email:</label>
+                <input type="email" id="email"  name="email" placeholder="Email Address">
+                </p>
+            <p>  
+                <label for="email"> Confirm Email:</label>
+                <input type="email" id="cemail"  name="cemail" placeholder="Confirm Address"  onblur="validateForm()"> <!--Eveny Handler-->
+            </p>
+            <p>
+                <textarea name="summary" rows="4" cols="50">Ask Questions Here...</textarea>
+            </p>
+        </form>
+       </div>
+       <script>
+        function validateForm() {
+    const email = document.getElementById("email");
+    const cemail = document.getElementById("cemail");
+  
+    // Validate fields
+    if (email.value == cemail.value ) {
+      console.log("Fields are valid.");
+    } else {
+      console.log("Emails Do Not Match");
+    }
+  }
+       </script><!--Logging on Console-->
+    </Body>
+   </html>
